@@ -2,9 +2,7 @@ import pandas as pd
 import plotly.express as px
 
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
-from dash.dependencies import Input, Output, State
+from dash import Input, Output, State, dcc, html
 
 # Data source https://finance.yahoo.com  -Data owner: Stefano Leone on Kaggle
 df = pd.read_csv("https://raw.githubusercontent.com/Coding-with-Adam/Dash-by-Plotly/master/Callbacks/Basic%20Callback/Mutual-Funds.csv")
